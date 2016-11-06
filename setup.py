@@ -145,7 +145,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'hello_world = foo.hello:main',
+            'learn_pygradle = learn_pygradle.__main__:main',
         ],
     }
 )
